@@ -25,5 +25,6 @@ public class SumOfElements {
         int result = sumOfAllElements(arr);
         System.out.println("Sum = "+ result);
 
+
     }
 }
