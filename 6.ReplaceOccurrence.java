@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ReplaceOccurrence {
+class ReplaceOccurrence {
     public static int[] replaceOccurrence(int []arr, int a, int b){
 
          for(int i = 0; i < arr.length; i++){

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MinAndMax {
+class MinAndMax {
 
     public static int[] findMinMax(int[] arr) {
         int min = arr[0];

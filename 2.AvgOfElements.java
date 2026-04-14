@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class AvgOfElements {
+class AvgOfElements {
     public static float avgOfElements(int []arr ){
         if(arr.length==0)return 0;
         int sum = 0;

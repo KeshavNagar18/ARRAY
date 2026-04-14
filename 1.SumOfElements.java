@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class SumOfElements {
+class SumOfElements {
 
     public static int sumOfAllElements(int[] arr){
         if(arr.length==0)return 0;

@@ -1,5 +1,5 @@
 import java.util.*;
-public class OccurrenceCount {
+class OccurrenceCount {
 
     public static int occurrenceCount(int[] arr, int target){
         int count = 0;
