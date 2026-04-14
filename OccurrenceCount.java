@@ -1,15 +1,15 @@
 import java.util.*;
-public class OccuranceCount {
+public class OccurrenceCount {
 
-    public static boolean occuranceCount(int[] arr, int target){
-        boolean found = false;
+    public static int occurrenceCount(int[] arr, int target){
+        int count = 0;
         for(int i :arr){
             if(i == target){
-                found = true;
-                break;
+                count++;
+
             }
         }
-        return found;
+        return count;
     }
 
     public static void main(String[] args) {
@@ -21,11 +21,7 @@ public class OccuranceCount {
         }
         int target = sc.nextInt();
 
-        boolean result = occuranceCount(arr,target);
-        if(result){
-            System.out.println("Found");
-        }else{
-            System.out.println("No");
-        }
+        int result = occurrenceCount(arr,target);
+        System.out.println(result);
     }
 }
